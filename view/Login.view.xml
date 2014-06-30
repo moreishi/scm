@@ -1,0 +1,25 @@
+<core:View
+  controllerName="sap.ui.clinic.view.Login"
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core" >
+  <Page
+    title="{i18n>LoginTitle}">
+    
+        
+
+        <VBox
+          class="marginBoxContent"
+          alignItems="Center"
+            justifyContent="Center">
+          <items>
+            <Input type="Text" placeholder="USERNAME" />            
+            <Input type="Password" placeholder="PASSWORD" />
+            <Button text="Login" press="handleLogin" />
+            <Link text="FORGOT PASSWORD" press="handleForgotPassword" />
+          </items>
+        </VBox>
+
+      
+    
+  </Page>
+</core:View>
